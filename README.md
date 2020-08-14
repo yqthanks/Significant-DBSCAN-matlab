@@ -59,9 +59,12 @@ Synthetic data generation code and base image files are in [synthetic_data](http
 
 ## Example comparison with other clustering techniques
 
+In the following, the first figure shows results on complete random data where there is no true cluster, and any cluster detected is spurious (happen only due to natural randomness). In contrast, the second figure shows detections on truly clustered data (governed by clustered point process; please see [paper](https://dl.acm.org/doi/abs/10.1145/3340964.3340968) for more details).
+
 **Complete random data (no true cluster exists)**
 
 ![randomdata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison1_random_data.png)
+
 
 **Clustered data with noise in background (four shapes are true clusters; background are noises generated with homogeneous probability density)**
 
