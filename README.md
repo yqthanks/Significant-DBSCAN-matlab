@@ -2,6 +2,7 @@
 **Code for paper** ([Best Paper Award](http://sstd2019.org/program.html) @ SSTD 2019):
 
 *Xie, Y. and Shekhar, S., 2019, August. Significant DBSCAN towards Statistically Robust Clustering. In Proceedings of the 16th International Symposium on Spatial and Temporal Databases (pp. 31-40).* [ACM link](https://dl.acm.org/doi/abs/10.1145/3340964.3340968)
+
 (Please cite this paper if the code is used for result comparison, etc.)
 
 ## Description
@@ -12,7 +13,7 @@ The code implements significant DBSCAN to automatically remove spurious clusters
 
 At the moment, this MATLAB demo code (Python or Java version will come later) is primarily for 2D spatial data but can be easily edited to work for arbitrary dimensions (e.g., removing the grid index). It also works for data with clusters of different densities.
 
-*Please note that we just quickly edited and shared the code here due to requests, and will need to do a bit more testing soon when I get time in about a week or two (late August). Feel free to try for now if interested*.
+*Please note that we just quickly edited and shared the code here due to requests, and will need to do a bit more testing soon when I get time in about a week or two (late August). Feel free to try for now if interested.*
 
 ## Example
 The following figure shows an example of results comparing DBSCAN and significant DBSCAN.
@@ -45,5 +46,16 @@ The following figure shows an example of results comparing DBSCAN and significan
 
 **Result visualization:**
 
+2D visualization code is in [visualization](https://github.com/yqthanks/significantDBSCAN/tree/master/visualization) folder.
 
+**Synthetic data generation:**
+
+Synthetic data generation code and base image files are in [synthetic_data](https://github.com/yqthanks/significantDBSCAN/tree/master/synthetic_data) folder.
+
+*We will share some examples of generated synthetic data soon.*
+
+
+## License
+
+The MIT License: AS IS (please see license file)
 
