@@ -126,7 +126,7 @@ for t = 1:m
     
     if n >= 1000
         if mod(t,20)==0
-            fprintf('n: %d, t: %d\n', [n,t]);%disp(t);
+            fprintf('mcs_data_size: %d, msc_trial_id: %d\n', [n,t]);%disp(t);
         end
     end
 end

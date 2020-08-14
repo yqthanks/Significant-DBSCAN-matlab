@@ -82,6 +82,7 @@ while i<n_density
     best_j = 0;
     best_i = 0;
 
+    fprintf('searching for best combo...\n');
     for j = 1:max(size(eps_vec))
         
         [idx,~] = DBSCAN(data, eps_vec(j), minpts_mat(i,j), cellsize, dim1, dim2);
@@ -190,16 +191,16 @@ while i<n_density
             figure, plot(1:j, trends(i,1:j));%size(eps,1)
         end
 
-        fprintf('local_count...\n');
-        disp(local_count);
+%         fprintf('local_count...\n');
+%         disp(local_count);
 
         fprintf('start significance testing for density = %f\n', density_vec(best_i));
         sigtest_vec = sigdb_sigtest(cluster_vec, eps_vec(best_j), minpts_mat(best_i,best_j), n, dim1, dim2, m, siglvl, ras, cellsize, mode);
 
         local_count = [local_count, sigtest_vec];
 
-        fprintf('local_count...\n');
-        disp(local_count);
+        fprintf('testing results for top 5 candidates...\n');
+        disp(local_count(1:min(size(local_count,1), 5), :));
 
         %remove significant clusters
         fprintf('start removing clusters...\n');

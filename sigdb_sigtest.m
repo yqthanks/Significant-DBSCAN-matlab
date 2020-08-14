@@ -26,8 +26,8 @@ sig_vec = zeros(vec_len, 1);
 current_sig_id = 0;
 
 nc_cluster_vec = sort(nc_cluster_vec, 'desc');
-fprintf('nc_cluster:\n');
-disp(nc_cluster_vec);
+% fprintf('nc_cluster:\n');
+% disp(nc_cluster_vec);
 
 sig_fulltest_vec = sigdb_mcs(nc_cluster_vec, eps_cluster, minpts_cluster, n, dim1, dim2, m, siglvl, ras, cellsize, mode);
 sig_vec(current_sig_id+1:end,:) = sig_fulltest_vec(:,:);
