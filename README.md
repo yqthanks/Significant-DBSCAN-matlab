@@ -11,6 +11,8 @@ This work aims to address a major limitation of traditional density-based cluste
 
 The code implements significant DBSCAN to automatically remove spurious clusters through point-process based statistical tests.
 
+Significant DBSCAN works particularly well when data has high volume of noise.
+
 At the moment, this MATLAB demo code (Python or Java version will come later) is primarily for 2D spatial data but can be easily edited to work for arbitrary dimensions (e.g., removing the grid index). It also works for data with clusters of different densities.
 
 *Please note that we just quickly edited and shared the code here due to requests, and will need to do a bit more testing soon when I get time in about a week or two (late August). Feel free to try for now if interested.*
@@ -55,7 +57,16 @@ Synthetic data generation code and base image files are in [synthetic_data](http
 *We will share some examples of generated synthetic data soon.*
 
 
+## Example comparison with other clustering techniques
+
+**Complete random data (no true cluster exists)**
+
+![randomdata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison1_random_data.png)
+
+**Clustered data with noise in background (four shapes are true clusters; background are noises generated with homogeneous probability density)**
+
+![clustereddata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison2_clustered_data.png)
+
 ## License
 
 The MIT License: AS IS (please see license file)
-
