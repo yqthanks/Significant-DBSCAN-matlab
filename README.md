@@ -3,7 +3,9 @@
 
 *Xie, Y. and Shekhar, S., 2019, August. Significant DBSCAN towards Statistically Robust Clustering. In Proceedings of the 16th International Symposium on Spatial and Temporal Databases (pp. 31-40).* [ACM link](https://dl.acm.org/doi/abs/10.1145/3340964.3340968)
 
-(Please cite this paper if the code is used for result comparison, etc.)
+Please cite this paper if the code is used for result comparison, etc.
+
+Sharing code to support reproducible research.
 
 ## Description
 This work aims to address a major limitation of traditional density-based clustering approach -- the lack of statistical rigor. This makes approaches such as DBSCAN tend to return many spurious clusters. For example, according to the [HDBSCAN](https://link.springer.com/chapter/10.1007/978-3-642-37456-2_14) paper: 
@@ -55,6 +57,19 @@ The following figure shows an example of results comparing DBSCAN and significan
 Synthetic data generator and base image files are in [synthetic_data](https://github.com/yqthanks/significantDBSCAN/tree/master/synthetic_data) folder.
 
 **Example synthetic data (24 sets)** have been added to [synthetic_data](https://github.com/yqthanks/significantDBSCAN/tree/master/synthetic_data). Visualizations of data and Significant DBSCAN results will be added soon.
+
+Data have four clusters with background noises. The spatial dimensions are 100 x 100. Datasets come with different number of points and effect sizes (exact definition see [paper](https://dl.acm.org/doi/abs/10.1145/3340964.3340968)). The naming format is:
+
+ShapeName_EffectSize1_EffectSize2_#Points
+
+```ShapeName```: "shape" or "test". Determines the shape of clusters (figures included in [synthetic_data](https://github.com/yqthanks/significantDBSCAN/tree/master/synthetic_data) folder)
+
+```EffectSize1``` and ```EffectSize2```: Determines how many times inside probability density is as high as outside (e.g., an effect size of two means the probability density of getting a point at each location inside the corresponding cluster is twice that of the outside non-clustered region). ```EffectSize1``` is used for two clusters and
+ ```EffectSize2``` for the rest. When effect size is one, that means the inside probability density is the same as outside. As a result, that means the inside region is not a true cluster (no underlying process to generate high density of points; if high density is observed, that is due to natural randomness).
+ 
+```#Points```: Number of points in a dataset (e.g., 2,000, 10,000).
+
+Same set of default parameters (```m```=100, ```siglvl```=0.01, default optional parameters) can be used for all example datasets.
 
 <!--*We will share some examples of generated synthetic data soon.*-->
 
