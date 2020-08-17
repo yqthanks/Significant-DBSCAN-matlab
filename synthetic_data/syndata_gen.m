@@ -2,6 +2,12 @@ function [data, gt] = syndata_gen(n, dim1, dim2, img, es_vec, labelimg)
 %function used to generate synthetic shape and test data using the pictures
 
 %labelimg contains unique pixel labels for each cluster
+%will be generated automatically if not given as input
+
+if ~exist('labelimg','var')
+    imgcomponents = bwconncomp(img);
+    labelimg = labelmatrix(imgcomponents);
+end
 
 %es_vec is vector containing effect size for each cluster
 %effect size means how many times inside probability density is as high as
@@ -9,6 +15,7 @@ function [data, gt] = syndata_gen(n, dim1, dim2, img, es_vec, labelimg)
 %for simplicity, assume es_vec_len is 2, hard coded this
 %thus, two clusters have effect size of es_vec(1) and other two have
 %es_vec(2)
+
 
 %fix image dimension to 100 by 100
 step1 = dim1/100;
