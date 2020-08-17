@@ -56,7 +56,7 @@ Synthetic data generator and base image files are in [synthetic_data](https://gi
 
 **Example synthetic data (24 sets)** have been added to [synthetic_data](https://github.com/yqthanks/significantDBSCAN/tree/master/synthetic_data). Visualizations of data and Significant DBSCAN results will be added soon.
 
-/*:*We will share some examples of generated synthetic data soon.*:*/
+<!--*We will share some examples of generated synthetic data soon.*-->
 
 
 ## Example comparison with other clustering techniques
