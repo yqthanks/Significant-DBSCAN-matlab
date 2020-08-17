@@ -3,6 +3,11 @@ function plotClusters(X, IDX)
     %the end of this code is hardcoded for visualizing synthetic data with
     %dims o [100,100]
     
+    if ~exist('IDX','var') && size(X,2)==3
+        IDX = X(:,3);
+        X = X(:,1:2);
+    end
+    
     figure;
     
     %if only want to visualize point distribution, i.e., not clustering
