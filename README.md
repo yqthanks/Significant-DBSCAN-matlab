@@ -3,6 +3,16 @@
 
 *Xie, Y. and Shekhar, S., 2019, August. Significant DBSCAN towards Statistically Robust Clustering. In Proceedings of the 16th International Symposium on Spatial and Temporal Databases (pp. 31-40).* [ACM link](https://dl.acm.org/doi/abs/10.1145/3340964.3340968)
 
+```
+@inproceedings{xie2019significant,
+  title={Significant DBSCAN towards Statistically Robust Clustering},
+  author={Xie, Yiqun and Shekhar, Shashi},
+  booktitle={Proceedings of the 16th International Symposium on Spatial and Temporal Databases},
+  pages={31--40},
+  year={2019}
+}
+```
+
 Please cite this paper if the code is used for result comparison, etc.
 
 **Sharing code to support reproducible research.**
