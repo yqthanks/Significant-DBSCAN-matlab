@@ -13,7 +13,8 @@
 }
 ```
 
-Please cite this paper if the code is used for result comparison, etc.
+More versions/data will be added soon. We appreciate citing of this paper if the code/data is used for result comparison, etc.
+
 
 **Sharing code to support reproducible research.**
 
