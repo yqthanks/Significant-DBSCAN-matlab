@@ -104,12 +104,14 @@ In the following, the first figure shows results on complete random data where t
 
 **Complete random data (no true cluster exists)**
 
-![randomdata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison1_random_data.png)
+<!-- ![randomdata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison1_random_data.png) -->
+<img src="https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison1_random_data.png" width="600">
 
 
 **Clustered data with noise in background (four shapes are true clusters; background are noises generated with homogeneous probability density)**
 
-![clustereddata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison2_clustered_data.png)
+<!-- ![clustereddata](https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison2_clustered_data.png) -->
+<img src="https://github.com/yqthanks/significantDBSCAN/blob/master/example_data_and_results/comparison2_clustered_data.png" width="600">
 
 ## License
 
