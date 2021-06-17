@@ -17,7 +17,9 @@
 
 We appreciate citing of this paper if the code/data is used for result comparison, etc. More versions (python version added)/data will be added soon.
 
-Another related survey on statistically-robust clustering is available at [arXiv](https://arxiv.org/pdf/2103.12019.pdf)
+Another related survey on statistically-robust clustering is available at [arXiv](https://arxiv.org/pdf/2103.12019.pdf):
+
+_Xie, Y., Shekhar, S. and Li, Y., 2021. Statistically-Robust Clustering Techniques for Mapping Spatial Hotspots: A Survey. arXiv preprint arXiv:2103.12019._
 
 
 **Sharing code to support reproducible research.**
