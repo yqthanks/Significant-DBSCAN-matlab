@@ -1,4 +1,5 @@
 # Significant DBSCAN
+**(This is the Matlab version. Python implementation has been added a separate repository)**
 **Code for paper** ([Best Paper Award](http://sstd2019.org/program.html) @ SSTD 2019):
 
 *Xie, Y. and Shekhar, S., 2019, August. Significant DBSCAN towards Statistically Robust Clustering. In Proceedings of the 16th International Symposium on Spatial and Temporal Databases (pp. 31-40).* [ACM link](https://dl.acm.org/doi/abs/10.1145/3340964.3340968)
@@ -13,7 +14,9 @@
 }
 ```
 
-More versions/data will be added soon. We appreciate citing of this paper if the code/data is used for result comparison, etc.
+We appreciate citing of this paper if the code/data is used for result comparison, etc. More versions (python version added)/data will be added soon.
+
+Another related survey on statistically-robust clustering is available at [arXiv](https://arxiv.org/pdf/2103.12019.pdf)
 
 
 **Sharing code to support reproducible research.**
