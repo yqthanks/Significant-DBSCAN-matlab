@@ -1,5 +1,5 @@
 # Significant DBSCAN
-**(This is the Matlab version. Python implementation has been added a separate repository)**
+(This is the **Matlab** version. The **Python** implementation has been added a separate repository)**
 
 **Code for paper** ([Best Paper Award](http://sstd2019.org/program.html) @ SSTD 2019):
 
