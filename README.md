@@ -37,7 +37,8 @@ At the moment, this MATLAB demo code (Python or Java version will come later) is
 ## Example
 The following figure shows an example of results comparing DBSCAN and significant DBSCAN.
 
-![Example](https://github.com/yqthanks/significantDBSCAN/blob/master/example_results.png)
+<!--![Example](https://github.com/yqthanks/significantDBSCAN/blob/master/example_results.png)-->
+<img src="https://github.com/yqthanks/significantDBSCAN/blob/master/example_results.png" width="100">
 
 ## Usage
 **Main function:** significantDBSCAN()
